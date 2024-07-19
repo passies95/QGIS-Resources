@@ -23,11 +23,11 @@ class configureRESOURCES(QgsProcessingAlgorithm):
     def __init__(self):
         super().__init__()
 
+    def tr(self, string):
+        return QCoreApplication.translate("Configure Resources", string)
+       
     def name(self):
         return "Configure Resources"
-
-    def tr(self, text):
-        return QCoreApplication.translate("Configure Resources", text)
 
     def displayName(self):
         return self.tr("Configure Resources (Dependencies)")
@@ -46,7 +46,7 @@ class configureRESOURCES(QgsProcessingAlgorithm):
         return "Configure"
 
     def createInstance(self):
-        return type(self)()
+        return configureRESOURCES()
 
     def initAlgorithm(self, config=None):
         pass
