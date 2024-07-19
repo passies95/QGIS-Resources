@@ -88,6 +88,3 @@ class configureRESOURCES(QgsProcessingAlgorithm):
             return {}
 
         return {}
-
-if __name__ == '__main__':
-    pass
