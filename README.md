@@ -1,6 +1,7 @@
 # QGIS-Resources
 A collection of Resources to be used within QGIS. 
 Resources are designed to work with QGIS 3.0 or Higher.
+- To install these resources, navigate to plugins and install the QGIS Resource Sharing Plugin. Within the Qgis Resource Sharing Window, navigate to the Settings and # Add repository https://github.com/passies95/QGIS-Resources.git
 
 # Limitations
 - As the image size increases, the disk space required for processing significantly increase since intermediate results are written on computer memory and are only released once the Qgis window has been closed or terminated. However, since each run produces different temporary outputs it is not possible to know the output name at the onset hence restoring previous steps is not been provided for at this time.
